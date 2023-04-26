@@ -3,7 +3,7 @@
 	<info>
 		<name>Race: Centaur</name>
 		<update version="0.0.1">
-			<file name="race-centaur.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/content/races/race-centaur.xml" />
+			<file name="race-centaur.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/midguard-heroes-handbook/races/race-centaur.xml" />
 		</update>
 	</info>
 

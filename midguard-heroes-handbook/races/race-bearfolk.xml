@@ -3,7 +3,7 @@
 	<info>
 		<name>Race: Bearfolk</name>
 		<update version="0.0.1">
-			<file name="race-bearfolk.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/content/races/race-bearfolk.xml" />
+			<file name="race-bearfolk.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/midguard-heroes-handbook/races/race-bearfolk.xml" />
 		</update>
 	</info>
 

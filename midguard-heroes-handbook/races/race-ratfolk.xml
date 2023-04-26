@@ -3,7 +3,7 @@
 	<info>
 		<name>Race: Ratfolk</name>
 		<update version="0.0.2">
-			<file name="race-ratfolk.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/content/races/race-ratfolk.xml" />
+			<file name="race-ratfolk.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/midguard-heroes-handbook/races/race-ratfolk.xml" />
 		</update>
 	</info>
 	

@@ -3,7 +3,7 @@
 	<info>
 		<name></name>
 		<update version="0.0.1">
-			<file name="source.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/content/source.xml" />
+			<file name="source.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/midguard-heroes-handbook/source.xml" />
 		</update>
 	</info>
 	
@@ -13,7 +13,7 @@
 		</description>
 		<setters>
 			<set name="abbreviation">MHH</set>
-			<set name="image">https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/content/mhh-cover.png</set>
+			<set name="image">https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/midguard-heroes-handbook/mhh-cover.png</set>
 			<set name="url">https://koboldpress.com/kpstore/product/midgard-heroes-handbook-for-5th-edition-pdf/</set>
 			<set name="author" abbreviation="USI" url="https://koboldpress.com">KoboldPress</set>
 			<set name="release">20170517</set>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name></name>
+		<update version="0.0.1">
+			<file name="midguard-heroes-handbook.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/midguard-heroes-handbook.index" />
+		</update>
+	</info>
+	
+	<!-- files -->
+	
+	<!-- races -->
+	<file url="https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/midguard-heroes-handbook/races/race-bearfolk.xml" />
+	<file url="https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/midguard-heroes-handbook/races/race-centaur.xml" />
+
+	<file url="https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/midguard-heroes-handbook/races/race-ratfolk.xml" />
+
+	<!-- archetypes -->
+	<file url="https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/midguard-heroes-handbook/archetypes/subclass-fighter-shieldbearer.xml" />
+
+	<!-- other -->
+	<file url="https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/midguard-heroes-handbook/source.xml" />
+</elements>

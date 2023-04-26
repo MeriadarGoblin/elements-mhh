@@ -3,7 +3,7 @@
 	<info>
 		<name>Martial Archetype: Shieldbearer</name>
 		<update version="0.0.2">
-			<file name="subclass-fighter-shieldbearer.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/content/archetypes/subclass-fighter-shieldbearer.xml" />
+			<file name="subclass-fighter-shieldbearer.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/midguard-heroes-handbook/archetypes/subclass-fighter-shieldbearer.xml" />
 		</update>
 	</info>
 	
