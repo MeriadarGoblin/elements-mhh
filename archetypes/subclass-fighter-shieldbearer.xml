@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Martial Archetype: Shieldbearer</name>
+		<update version="0.0.1">
+			<file name="subclass-fighter-shieldbearer.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/subclass-fighter-shieldbearer.xml" />
+		</update>
+	</info>
+	
+	<element name="Shieldbearer" type="Archetype" source="Midgard Heroes Handbook" id="ID_KBP_MHH_ARCHETYPE_FIGHTER_SHIELDBEARER">
+		<supports>Martial Archetype</supports>
+		<description>
+			<p>The archetypal Shieldbearer of the Ironcrag Cantons is a staunch bulwark against any foe. Fighters who emulate this archetype become one with their shields, bolstering their defensive power and even turning it into a crushing weapon.</p>
+			<div element="ID_KBP_MHH_ARCHETYPE_FEATURE_SHIELDBEARER_BEARER" />
+			<div element="ID_KBP_MHH_ARCHETYPE_FEATURE_SHIELDBEARER_WALL" />
+			<div element="ID_KBP_MHH_ARCHETYPE_FEATURE_SHIELDBEARER_IMPROVED_FIGHTING_STYLE" />
+			<div element="ID_KBP_MHH_ARCHETYPE_FEATURE_SHIELDBEARER_SHIELD_THE_MIND" />
+			<div element="ID_KBP_MHH_ARCHETYPE_FEATURE_SHIELDBEARER_UNASSAILABLE_BULWARK" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_KBP_MHH_ARCHETYPE_FEATURE_SHIELDBEARER_BEARER" level="3" />
+			<grant type="Archetype Feature" id="ID_KBP_MHH_ARCHETYPE_FEATURE_SHIELDBEARER_WALL" level="7" />
+			<grant type="Archetype Feature" id="ID_KBP_MHH_ARCHETYPE_FEATURE_SHIELDBEARER_IMPROVED_FIGHTING_STYLE" level="10" />
+			<grant type="Archetype Feature" id="ID_KBP_MHH_ARCHETYPE_FEATURE_SHIELDBEARER_SHIELD_THE_MIND" level="15" />
+			<grant type="Archetype Feature" id="ID_KBP_MHH_ARCHETYPE_FEATURE_SHIELDBEARER_UNASSAILABLE_BULWARK" level="18" />
+		</rules>
+	</element>
+	<element name="Shield Bearer" type="Archetype Feature" source="Midgard Heroes Handbook" id="ID_KBP_MHH_ARCHETYPE_FEATURE_SHIELDBEARER_BEARER">
+		<description>
+			<p>Beginning when you choose this archetype at 3rd level, when you take the Attack action, you can make an improvised weapon attack with your shield as a bonus action.</p>
+		</description>
+		<sheet>
+			<description>When you take the Attack action, you can make an improvised weapon attack with your shield as a bonus action.</description>
+		</sheet>
+	</element>
+	<element name="Shield Wall" type="Archetype Feature" source="Midgard Heroes Handbook" id="ID_KBP_MHH_ARCHETYPE_FEATURE_SHIELDBEARER_WALL">
+		<description>
+			<p>Starting at 7th level, while you are wielding a shield, your foes treat the area within 5 feet of you as difficult terrain. If you didn’t move on your turn, you have advantage on any ability check or saving throw made against being knocked prone or being moved from your current location.</p>
+		</description>
+		<sheet>
+			<description>While you are wielding a shield, your foes treat the area within 5 feet of you as difficult terrain. If you didn’t move on your turn, you have advantage on any ability check or saving throw made against being knocked prone or being moved from your current location.</description>
+		</sheet>
+	</element>
+	<element name="Improved Fighting Style" type="Archetype Feature" source="Midgard Heroes Handbook" id="ID_KBP_MHH_ARCHETYPE_FEATURE_SHIELDBEARER_IMPROVED_FIGHTING_STYLE">
+		<description>
+			<p>At 10th level, when wielding a shield, you gain the following benefit, appropriate to your chosen Fighting Style.</p>
+			<p><b>Defense.</b> When you are missed by a melee attack made by a creature within 5 feet of you, as a reaction you can Shove the attacker. If you successfully push the attacker away, you can step into the just-vacated space.</p>
+			<p><b>Dueling.</b>  Once per turn when you hit a creature with a one-handed weapon, increase the damage you deal by an amount equal to your shield’s AC bonus.</p>
+			<p><b>Protection.</b> When you use your protection Fighting Style, you also increase your chosen ally’s AC by 1.</p>
+			<p><b>Two-Weapon Fighting.</b> You are proficient with improvised attacks made with a shield, and improvised attacks with a shield deal 1d6 bludgeoning damage.</p>
+		</description>
+		<sheet>
+			<description>When wielding a shield, you gain the following benefit, appropriate to your chosen Fighting Style.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_KBP_MHH_SHIELDBEARER_IMPROVED_FIGHTING_STYLE_DEFENSE" requirements="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_DEFENSE" />
+			<grant type="Archetype Feature" id="ID_KBP_MHH_SHIELDBEARER_IMPROVED_FIGHTING_STYLE_DUELING" requirements="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_DUELING" />
+			<grant type="Archetype Feature" id="ID_KBP_MHH_SHIELDBEARER_IMPROVED_FIGHTING_STYLE_PROTECTION" requirements="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_PROTECTION" />
+			<grant type="Archetype Feature" id="ID_KBP_MHH_SHIELDBEARER_IMPROVED_FIGHTING_STYLE_TWOWEAPON_FIGHTING" requirements="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_TWOWEAPON_FIGHTING" />
+		</rules>
+	</element>
+	<element name="Shield the Mind" type="Archetype Feature" source="Midgard Heroes Handbook" id="ID_KBP_MHH_ARCHETYPE_FEATURE_SHIELDBEARER_SHIELD_THE_MIND">
+		<description>
+			<p>Starting at 15th level, you add your shield’s AC bonus to Wisdom, Intelligence, and Charisma saving throws.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="ID_PROFICIENCY_SAVINGTHROW_WISDOM" value="ac:shield" />
+			<stat name="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" value="ac:shield" />
+			<stat name="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" value="ac:shield" />
+		</rules>
+	</element>
+	<element name="Unassaiable Bulwark" type="Archetype Feature" source="Midgard Heroes Handbook" id="ID_KBP_MHH_ARCHETYPE_FEATURE_SHIELDBEARER_UNASSAILABLE_BULWARK">
+		<description>
+			<p>At 18th level, while wielding a shield, you have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks. In addition, when you fail a saving throw against being charmed, frightened, paralyzed, petrified, stunned, or knocked prone, you can choose to succeed instead; after using this ability once, you must complete a short or long rest before using it again. You also have advantage on ability checks and saving throws against effects that would cause you to drop your shield. </p>
+		</description>
+		<sheet usage="1/Rest">
+			<description>While wielding a shield, you have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks. In addition, when you fail a saving throw against being charmed, frightened, paralyzed, petrified, stunned, or knocked prone, you can choose to succeed instead. You also have advantage on ability checks and saving throws against effects that would cause you to drop your shield.</description>
+		</sheet>
+	</element>
+
+	<!-- Improved Fighting Styles -->
+	<element name="Improved Fighting Style: Defense" type="Archetype Feature" source="Midgard Heroes Handbook" id="ID_KBP_MHH_SHIELDBEARER_IMPROVED_FIGHTING_STYLE_DEFENSE">
+		<description>
+			<p>When you are missed by a melee attack made by a creature within 5 feet of you, as a reaction you can Shove the attacker. If you successfully push the attacker away, you can step into the just-vacated space.</p>
+		</description>
+		<sheet usage="Reaction" alt="Improved Defense">
+			<description>When you are missed by a melee attack made by a creature within 5 feet of you, as a reaction you can Shove the attacker. If you successfully push the attacker away, you can step into the just-vacated space.</description>
+		</sheet>
+	</element>
+	<element name="Improved Fighting Style: Dueling" type="Archetype Feature" source="Midgard Heroes Handbook" id="ID_KBP_MHH_SHIELDBEARER_IMPROVED_FIGHTING_STYLE_DUELING">
+		<description>
+			<p>Once per turn when you hit a creature with a one-handed weapon, increase the damage you deal by an amount equal to your shield’s AC bonus.</p>
+		</description>
+		<sheet alt="Improved Dueling">
+			<description>Once per turn when you hit a creature with a one-handed weapon, increase the damage you deal by an amount equal to your shield’s AC bonus.</description>
+		</sheet>
+	</element>
+	<element name="Improved Fighting Style: Protection" type="Archetype Feature" source="Midgard Heroes Handbook" id="ID_KBP_MHH_SHIELDBEARER_IMPROVED_FIGHTING_STYLE_PROTECTION">
+		<description>
+			<p>When you use your protection Fighting Style, you also increase your chosen ally’s AC by 1.</p>
+		</description>
+		<sheet alt="Improved Protection">
+			<description>When you use your protection Fighting Style, you also increase your chosen ally’s AC by 1.</description>
+		</sheet>
+	</element>
+	<element name="Improved Fighting Style: Two-Weapon Fighting" type="Archetype Feature" source="Midgard Heroes Handbook" id="ID_KBP_MHH_SHIELDBEARER_IMPROVED_FIGHTING_STYLE_TWOWEAPON_FIGHTING">
+		<description>
+			<p>You are proficient with improvised attacks made with a shield, and improvised attacks with a shield deal 1d6 bludgeoning damage.</p>
+		</description>
+		<sheet alt="Improved Two-Weapon Fighting">
+			<description>You are proficient with improvised attacks made with a shield, and improvised attacks with a shield deal 1d6 bludgeoning damage.</description>
+		</sheet>
+	</element>
+</elements>
