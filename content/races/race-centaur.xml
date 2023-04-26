@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+		<name>Race: Centaur</name>
+		<update version="0.0.1">
+			<file name="race-centaur.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/content/races/race-centaur.xml" />
+		</update>
+	</info>
+
 	<element name="Centaur" type="Race" source="Midgard Heroes Handbook" id="ID_KBP_MHH_RACE_CENTAUR">
 		<description>
 			<p>On the plains, in the forests, and across the steppes live creatures who blend humanoid and equine aspects. Centaurs are neither man nor beast, but occupy a strange niche in both the civilized and natural worlds. They are born with grace befitting a human king, but are possessed of the fierce savagery of a wild stallion. Centaurs are a scattered race, roaming in small clan groups from the Rothenian Plain (where their numbers are great) to the court of the young Valeran Emperor, whom several serve as personal guards. But they also have a reputation for banditry and bullying, and most cultures consider them dangerous.</p>

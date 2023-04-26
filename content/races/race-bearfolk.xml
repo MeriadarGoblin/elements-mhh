@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+		<name>Race: Bearfolk</name>
+		<update version="0.0.1">
+			<file name="race-bearfolk.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/content/races/race-bearfolk.xml" />
+		</update>
+	</info>
+
 	<element name="Bearfolk" type="Race" source="Midgard Heroes Handbook" id="ID_KBP_MHH_RACE_BEARFOLK">
 		<description>
 			<p>Bearfolk are massive people of iron resolve and deep nobility, resembling bears that walk upright rather than all fours. Hailing from either the cold climates of Midgard’s Northlands or from a nation of light carved out of the Shadow Realm itself, bearfolk put their trust in family and tribe to stand against the world. In defiance of their brutish appearance, they are deeply spiritual and artistic.</p>

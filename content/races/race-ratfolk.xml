@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name></name>
-		<update version="0.0.1">
-			<file name="race-ratfolk.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/race-ratfolk.xml" />
+		<name>Race: Ratfolk</name>
+		<update version="0.0.2">
+			<file name="race-ratfolk.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/content/races/race-ratfolk.xml" />
 		</update>
 	</info>
 	
