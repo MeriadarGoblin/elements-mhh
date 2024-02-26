@@ -2,22 +2,24 @@
 <elements>
 	<info>
 		<name>Midgard Heroes Handbook</name>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="midguard-heroes-handbook.index" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/midguard-heroes-handbook.index" />
 		</update>
 	</info>
 	
-	<!-- files -->
-	
-	<!-- races -->
-	<file url="https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/midguard-heroes-handbook/races/race-bearfolk.xml" />
-	<file url="https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/midguard-heroes-handbook/races/race-centaur.xml" />
+	<files>
+		<!-- files -->
+		
+		<!-- races -->
+		<file name="race-bearfolk.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/midguard-heroes-handbook/races/race-bearfolk.xml" />
+		<file name="race-centaur.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/midguard-heroes-handbook/races/race-centaur.xml" />
 
-	<file url="https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/midguard-heroes-handbook/races/race-ratfolk.xml" />
+		<file name="race-ratfolk.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/midguard-heroes-handbook/races/race-ratfolk.xml" />
 
-	<!-- archetypes -->
-	<file url="https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/midguard-heroes-handbook/archetypes/subclass-fighter-shieldbearer.xml" />
+		<!-- archetypes -->
+		<file name="subclass-fighter-shieldbearer.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/midguard-heroes-handbook/archetypes/subclass-fighter-shieldbearer.xml" />
 
-	<!-- other -->
-	<file url="https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/midguard-heroes-handbook/source.xml" />
+		<!-- other -->
+		<file name="source.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/midguard-heroes-handbook/source.xml" />
+	</files>
 </elements>

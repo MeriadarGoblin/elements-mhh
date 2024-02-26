@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name></name>
-		<update version="0.0.1">
+		<name>Midgard Heroes Handbook Source</name>
+		<update version="0.0.2">
 			<file name="source.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-mhh/main/midguard-heroes-handbook/source.xml" />
 		</update>
 	</info>
 	
-	<element name="Midgard Heroes Handbook" type="Source" source="Core" id="ID_SOURCE_KBP_MHH">
+	<element name="Midgard Heroes Handbook" type="Source" source="Midgard Heroes Handbook" id="ID_SOURCE_KBP_MHH">
 		<description>
 			<p>A Companion Guidebook for use alongside the Dungeons &amp; Dragons 5th Edition Player's Handbook to bring Final Fantasy XIV to your table.</p>
 		</description>
